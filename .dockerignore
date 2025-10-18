@@ -32,19 +32,17 @@ docker-compose.yml
 .git/
 .gitignore
 
-# IDE
+# vscode
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Documentation
+# doc
 README.md
 *.md
 
-# Uploads (exclude from image)
 backend/uploads/*
 uploads/*
 
-# Environment (if you have example files)
 .env.example
