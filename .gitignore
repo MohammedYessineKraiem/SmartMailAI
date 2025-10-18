@@ -8,7 +8,7 @@ env/
 venv/
 ENV/
 
-# Environment variables (IMPORTANT!)
+# env var
 backend/.env
 .env
 
@@ -16,7 +16,7 @@ backend/.env
 backend/uploads/*
 !backend/uploads/.gitkeep
 
-# IDE
+# vscode
 .vscode/
 .idea/
 *.swp
@@ -25,5 +25,5 @@ backend/uploads/*
 .DS_Store
 Thumbs.db
 
-# Docker
+# dock
 *.log
